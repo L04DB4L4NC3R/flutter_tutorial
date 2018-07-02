@@ -9,7 +9,13 @@
  *
  *
  * Private functions are defined as _privatefunction(){print("HI"} and they are passed
- * as _privatefunction
+ * as _privatefunction'
+ *
+ *
+ * If text is in a scaffold then swigly lines wont come under it
+ *
+ *
+ * InkWell widget is like an anchor tag which can attach event listners on the widgets within it
  * */
 
 import 'package:flutter/material.dart';

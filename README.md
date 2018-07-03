@@ -87,7 +87,7 @@ A new Flutter project.
 ### bottomNavigationBar
 
 * It is a property of Scaffold
-* bottomNavigationBar = new BottomNavigationBar(items:[new BottomNavigationBarItem(icon:null,title:null)])
+* bottomNavigationBar = new BottomNavigationBar(items:[new BottomNavigationBarItem(icon:null,title:null)],onTap = (int i)=>debugPrint(i))
 * Number of BottomNavigationBarItems should be >= 2
 
 <br />
@@ -97,5 +97,26 @@ A new Flutter project.
 
 <br />
 <br />
+
+### floatingActionButton
+* It is a property of Scaffold
+* it contains a child which holds the icon and an event listener for onPressed
+
+```dart
+
+     floatingActionButton: new FloatingActionButton(
+         onPressed: ()=>debugPrint("Pressed!"),
+     backgroundColor: Colors.greenAccent.shade200,
+     tooltip: "Going up!",
+     child: new Icon(Icons.add)),
+   );
+ ```
+
+ <br />
+
+ [docs](https://docs.flutter.io/flutter/material/FloatingActionButton-class.html)
+
+ <br />
+ <br />
 
 [documentation](https://flutter.io/).

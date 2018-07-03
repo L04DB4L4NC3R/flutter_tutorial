@@ -18,21 +18,28 @@ class Home extends StatelessWidget{
          new IconButton(icon: new Icon(Icons.search), onPressed: _privateFunc)
        ],
      ),
-    backgroundColor: Colors.grey.shade400,
-     body: new Container(
+
+       backgroundColor: Colors.grey.shade300,
+
+       body: new Container(
        alignment: Alignment.center,
        child: new Column(
          mainAxisAlignment: MainAxisAlignment.center,
          children: <Widget>[
            new Text("Hello there", textDirection: TextDirection.ltr,),
-           new IconButton(icon: new Icon(Icons.add_alarm), onPressed: null),
            new InkWell(
              child:new Text("This is an InkWell"),
              onTap: ()=>debugPrint("InkWell event listner invoked"),
            )
          ],
        )
-     )
+     ),
+
+     bottomNavigationBar: new BottomNavigationBar(items: [
+       new BottomNavigationBarItem(icon: new Icon(Icons.add), title: new Text("Hey")),
+       new BottomNavigationBarItem(icon: new Icon(Icons.add_comment), title: new Text("Hey2")),
+       new BottomNavigationBarItem(icon: new Icon(Icons.message), title: new Text("Hey3"))
+     ],onTap: (int i)=>debugPrint("You have pressed button number $i"),),
    );
   }
 

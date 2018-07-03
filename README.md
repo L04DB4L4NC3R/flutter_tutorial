@@ -23,7 +23,7 @@ A new Flutter project.
 
  * new MaterialApp() is used instead of new Material() because it allows us to
  * add names to our widgets
- *
+ [docs](https://docs.flutter.io/flutter/material/MaterialApp-class.html)
 
 <br />
 <br />
@@ -32,7 +32,9 @@ A new Flutter project.
 
  * Scaffold is like a container with different properties
  * like appBar, backgroundColor etc. It makes development easy
- * If text is in a scaffold then swigly lines wont come under it */
+ * If text is in a scaffold then swigly lines wont come under it
+ * It has properties like appBar, body, bottomNavigationBar
+ [docs](https://docs.flutter.io/flutter/material/Scaffold-class.html)
 
 
 <br />
@@ -41,8 +43,8 @@ A new Flutter project.
 ### appBar
 
  * appBar can contain buttons knows as 'actions: <Widget>[]'
- * the array can have iconButtons(icon:null,onPressed:null)
-
+ * the array can have iconButtons(icon:new Icon(Icons.search),onPressed:null)
+ [docs](https://docs.flutter.io/flutter/material/AppBar-class.html)
 
 
 <br />
@@ -59,7 +61,19 @@ A new Flutter project.
 
 ### InkWell widget
 
-* InkWell widget is like an anchor tag which can attach event listners on the widgets within it
+* InkWell widget is like an anchor tag which can attach event listeners on the widgets within it
+[docs](https://docs.flutter.io/flutter/material/InkWell-class.html)
+
+<br />
+<br />
+
+
+### bottomNavigationBar
+
+* It is a property of Scaffold
+* bottomNavigationBar = new BottomNavigationBar(items:[new BottomNavigationBarItem(icon:null,title:null)])
+* Number of BottomNavigationBarItems should be >= 2
+[docs](https://docs.flutter.io/flutter/material/BottomNavigationBar-class.html)
 
 
 <br />

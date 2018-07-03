@@ -1,17 +1,20 @@
 # flutter_tutorial
 
 A new Flutter project.
+---
 
 ## Getting Started
+---
 
 <br />
 <br />
 
+Note: To acess global context settings: Theme.of(context).<property>
+
+<br />
 
 
-
-
-## Container
+### Container
 
  * A container can contain one or more widgets. It is like a div
 
@@ -19,18 +22,20 @@ A new Flutter project.
 
  * Expanded is used to allocate more space to a particular widget in a row
 
+ * It has properties like padding and decoration which can be used to style a custom button
+
   ```dart
   return new Container(
         color:Colors.greenAccent,
         alignment:Alignment.center,
         child: new Column(mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          new TXT("first item"),
-          new TXT("second item"),
+          new Text("first item"),
+          new Text("second item"),
           new Container(
             color:Colors.blue.shade500,
             alignment: Alignment.bottomLeft,
-            child: new TXT("This box was created using a text widget inside a container inside a column inside a container inside a MaterialApp")
+            child: new Text("This box was created using a text widget inside a container inside a column inside a container inside a MaterialApp")
           )
         ],)
       );
@@ -232,6 +237,47 @@ void _privateFunc(){
  <br />
 
  [docs](https://docs.flutter.io/flutter/material/FloatingActionButton-class.html)
+
+<br />
+<br />
+
+
+
+
+
+
+
+
+### GestureDetector
+
+* It has event listeners
+
+* It can be returned in a class
+
+```dart
+return new GestureDetector(
+      onTap:(){
+        final snackbar = new SnackBar(content: new Text("Hello Gestures"),
+        duration: new Duration(milliseconds: 700),);
+
+        //to access one level up
+        Scaffold.of(context).showSnackBar(snackbar);
+      },
+      child: new Container(
+        padding: new EdgeInsets.all(20.0),
+        decoration: new BoxDecoration(
+          color: Theme.of(context).buttonColor,
+          borderRadius: new BorderRadius.circular(5.5)
+        ),
+        child: new Text("Press me")
+      )
+    );
+ ```
+
+<br />
+
+[docs](https://docs.flutter.io/flutter/widgets/GestureDetector-class.html)
+
 
 
 

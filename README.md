@@ -17,7 +17,7 @@ Note: To acess global context settings: Theme.of(context).<property>
 
 
 
-## Index
+## <a name="index"></a> Index
 ---
 
 * [Container](#1)
@@ -38,6 +38,7 @@ Note: To acess global context settings: Theme.of(context).<property>
 
 * [GestureDetector](#9)
 
+---
 
 <br />
 <br />
@@ -80,6 +81,8 @@ Note: To acess global context settings: Theme.of(context).<property>
 
  [docs](https://docs.flutter.io/flutter/widgets/Container-class.html)
 
+ [Index](#index)
+
 
 
 
@@ -107,6 +110,7 @@ Note: To acess global context settings: Theme.of(context).<property>
  <br />
 
  [docs](https://docs.flutter.io/flutter/material/MaterialApp-class.html)
+[Index](#index)
 
 <br />
 <br />
@@ -135,6 +139,7 @@ Note: To acess global context settings: Theme.of(context).<property>
 
  [docs](https://docs.flutter.io/flutter/material/Scaffold-class.html)
 
+[Index](#index)
 
 <br />
 <br />
@@ -167,7 +172,7 @@ Note: To acess global context settings: Theme.of(context).<property>
  <br />
 
  [docs](https://docs.flutter.io/flutter/material/AppBar-class.html)
-
+[Index](#index)
 
 
 
@@ -187,7 +192,7 @@ void _privateFunc(){
     print("Search tapped");
   }
 ```
-
+[Index](#index)
 
 <br />
 <br />
@@ -211,6 +216,8 @@ void _privateFunc(){
 <br />
 
 [docs](https://docs.flutter.io/flutter/material/InkWell-class.html)
+
+[Index](#index)
 
 <br />
 <br />
@@ -240,7 +247,7 @@ void _privateFunc(){
 <br />
 
 [docs](https://docs.flutter.io/flutter/material/BottomNavigationBar-class.html)
-
+[Index](#index)
 
 <br />
 <br />
@@ -272,6 +279,7 @@ void _privateFunc(){
  <br />
 
  [docs](https://docs.flutter.io/flutter/material/FloatingActionButton-class.html)
+[index](#index)
 
 <br />
 <br />
@@ -312,7 +320,7 @@ return new GestureDetector(
 <br />
 
 [docs](https://docs.flutter.io/flutter/widgets/GestureDetector-class.html)
-
+[index](#index)
 
 
 

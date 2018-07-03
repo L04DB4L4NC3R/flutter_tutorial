@@ -90,7 +90,7 @@ Note: To acess global context settings: Theme.of(context).<property>
 <br />
 <br />
 
-### MaterialApp
+### <a name="2"></a> MaterialApp
 
  * new MaterialApp() is used instead of new Material() because it allows us to
  * add names to our widgets
@@ -119,7 +119,7 @@ Note: To acess global context settings: Theme.of(context).<property>
 
 
 
-### Scaffold
+### <a name="3"></a> Scaffold
 
  * Scaffold is like a container with different properties
  * like appBar, backgroundColor etc. It makes development easy
@@ -147,7 +147,7 @@ Note: To acess global context settings: Theme.of(context).<property>
 
 
 
-### appBar
+### <a name="4"></a> appBar
 
  * appBar can contain buttons knows as 'actions: <Widget>[]'
  * the array can have iconButtons(icon:new Icon(Icons.search),onPressed:null)
@@ -177,7 +177,7 @@ Note: To acess global context settings: Theme.of(context).<property>
 <br />
 <br />
 
-### Private functions
+### <a name="5"></a> Private functions
 
 * Private functions are defined as _privatefunction(){print("HI"} and they are passed
 * as _privatefunction
@@ -197,7 +197,7 @@ void _privateFunc(){
 
 
 
-### InkWell widget
+### <a name="6"></a> InkWell widget
 
 * InkWell widget is like an anchor tag which can attach event listeners on the widgets within it
 
@@ -221,7 +221,7 @@ void _privateFunc(){
 
 
 
-### bottomNavigationBar
+### <a name="7"></a> bottomNavigationBar
 
 * It is a property of Scaffold
 * bottomNavigationBar = new BottomNavigationBar(items:[new BottomNavigationBarItem(icon:null,title:null)],onTap = (int i)=>debugPrint(i))
@@ -255,7 +255,7 @@ void _privateFunc(){
 
 
 
-### floatingActionButton
+### <a name="8"></a> floatingActionButton
 * It is a property of Scaffold
 * it contains a child which holds the icon and an event listener for onPressed
 
@@ -283,7 +283,7 @@ void _privateFunc(){
 
 
 
-### GestureDetector
+### <a name="9"></a> GestureDetector
 
 * It has event listeners
 
